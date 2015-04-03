@@ -1,0 +1,175 @@
+/* ADD YOUR STYLES HERE */
+
+/*Number 6*/
+
+.placeholder-box {
+	float: left;
+	padding: 20px;
+}
+
+/*number 7*/
+
+.vertical-align-list {
+	padding-bottom: 100px;
+}
+.vertical-align-image{
+	padding-top: 100px;
+}
+
+/*number 8*/
+
+ul .horizontal-text {
+	list-style-type: none;
+	display: inline;
+}
+
+/*number 9 */
+
+.button-big{
+	background-color: rgb(231, 76, 60);
+	color: white;
+	padding: 90px;		
+	border-radius: 5px;	
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.button-medium{
+	background-color: rgb(231, 76, 60);
+	color: white;
+	padding: 60px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: none;
+}
+.button-small{
+	background-color: rgb(231, 76, 60);
+	color: white;
+	padding: 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*number 10*/
+
+.highlight-nav li {
+	display: inline-block;
+	list-style: none;
+	background-color: rgb(231, 76, 60);
+	float: left
+}
+.highlight-nav a {
+	display: inline-block;
+	/*opacity: 0;*/
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.highlight-nav li.first-nav{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.highlight-nav li.last-nav{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.highlight-nav li:hover{
+	background-color: rgb(230, 126, 34);
+}
+
+/*Number 11 - Pagination*/
+.pagination li, .pagination span{
+	display: inline-block;
+	list-style: none;
+	margin: 5px;
+}
+.pagination a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 2px solid rgb(231, 76, 60);
+	color: rgb(231, 76, 60);
+}
+.pagination span {
+	border-bottom: 2px solid gray;
+	padding: 10px;
+	color: gray;
+}
+.pagination .end{
+	border-bottom: none;
+}
+
+/*Number 12 Comment Stream*/
+
+.comments-container{
+	overflow: hidden;
+}
+
+.comments-avatar{
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+.comments-meta-data{
+	float: left;
+}
+
+
+/*Number 13 Tabs*/
+.tab-header li{
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	height: 30px;
+	padding-top: 10px;
+	border-color: blue;
+	border-top: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-style: solid;
+	margin-right: 3px;
+	margin-left: 3px;
+	position: relative;
+	z-index: -100;
+}
+
+.tab-header a {
+	text-decoration: none;
+	color: blue;
+	position: relative;
+	z-index: -50;
+	top: 4px;
+	font-weight: bold;
+}
+
+.tab-content {
+	border:1px solid blue;
+	padding: 7px;
+	padding-top: 10px;
+	border-radius: 5px;
+	position: relative;
+	z-index: 0;
+	top: -1px;
+}
+.tab-header .active-tab {
+	border-bottom: 1px solid white;
+	position: relative;
+	z-index: 100;
+}
